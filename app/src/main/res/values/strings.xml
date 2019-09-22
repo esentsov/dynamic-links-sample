@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dynamic Links</string>
+    <string name="main_fragment_text">Main Fragment</string>
+    <string name="deep_linked_fragment_text">Deep link opened</string>
+</resources>
