@@ -17,6 +17,6 @@
         android:label="DeepLinkedFragment"
         tools:layout="@layout/fragment_deep_linked">
 
-        <deepLink app:uri="http://{host}/deep-link" />
+        <deepLink app:uri=".*/deep-link" />
     </fragment>
 </navigation>
