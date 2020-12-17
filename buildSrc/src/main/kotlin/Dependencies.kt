@@ -1,4 +1,4 @@
-const val kotlinVersion = "1.3.71"
+const val kotlinVersion = "1.4.21"
 
 object AndroidSdk {
     const val min = 23
@@ -7,7 +7,7 @@ object AndroidSdk {
 }
 
 // Dependencies
-const val navigation = "2.2.2"
+const val navigation = "2.3.2"
 const val appcompat = "1.1.0"
 const val coreKtx = "1.2.0"
 const val constraintLayout = "1.1.3"
