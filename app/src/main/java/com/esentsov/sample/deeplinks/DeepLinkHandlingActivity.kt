@@ -34,6 +34,7 @@ class DeepLinkHandlingActivity : AppCompatActivity() {
 
     private fun startMainActivity(deepLink: Uri? = null) {
         startActivity(Intent(this, MainActivity::class.java).also {
+            it.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             it.data = deepLink
         })
     }
